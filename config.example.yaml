@@ -1,0 +1,14 @@
+# KnockSphere Global Configuration
+general:
+  concurrency: 100
+  timeout: 5.0
+  user_agent: "KnockSphere/1.0 (Security Intelligence Agent)"
+  dns_servers:
+    - "1.1.1.1"
+    - "8.8.8.8"
+    - "9.9.9.9"
+
+api_keys:
+  virustotal: ""
+  shodan: ""
+  securitytrails: ""
